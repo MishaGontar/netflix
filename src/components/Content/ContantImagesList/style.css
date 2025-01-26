@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.content-image-container {
+    @apply w-full flex space-x-6 overflow-hidden lg:mt-[15px] 2xl:mt-[32px] mb-[49px]  justify-center sm:justify-start
+}
+
+.content-image-container > * {
+    @apply flex-shrink-0 rounded-lg object-cover
+    w-[233] h-[350px]
+    sm:-translate-x-[150px]
+    lg:w-[120px] lg:h-[180px]
+    2xl:w-[200px] 2xl:h-[270px] 2xl:-translate-x-[150px]
+}

@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+.film-details-genre {
+    @apply
+    text-[18px] leading-[28.73px]
+    xl:text-[25px] xl:leading-[28.73px]
+}
+
+.film-details-title {
+    @apply my-4 font-extrabold
+    text-[35px] leading-[36.8px]
+    xl:text-[45px] xl:leading-[46.8px]
+    2xl:text-[54px]  2xl:leading-[57.45px]
+}
+
+.film-details-info {
+    @apply flex flex-col sm:flex-row space-x-1 font-medium mb-1 sm:mb-0 sm:text-center sm:items-center
+    text-[15px] leading-[25.31px]
+    xl:text-[23px] xl:leading-[25.31px]
+    2xl:text-[24px] 2xl:leading-[25.31px]
+}
+
+.film-details-description {
+    @apply flex flex-wrap font-normal
+    w-[90%]
+    md:w-[77%]
+    lg:w-2/4
+    xl:w-[860px] xl:text-[20px] xl:leading-[34px]
+}
+
+.film-details-buttons {
+    @apply flex flex-col sm:flex-row space-x-[50px] select-none space-y-4 mr-4 sm:mr-0 sm:space-y-0
+}
+
+.stream-button {
+    @apply flex flex-row items-center justify-center bg-[#D40D1F] space-x-3 rounded-[10px] cursor-pointer hover:bg-red-700
+    w-full h-[40px]
+    xl:h-[50px] xl:w-[250px] 2xl:h-[60px]
+}
+
+.stream-text {
+    @apply 2xl:text-[20px] 2xl:leading-[25px] font-medium
+}
+
+.episodes-button {
+    @apply text-center font-medium  border-3 border-white rounded-[10px] cursor-pointer hover:bg-[#D40D1F]
+    h-[40px] sm:h-auto
+    2xl:text-[20px] 2xl:leading-[2-px] xl:px-[58px]
+}

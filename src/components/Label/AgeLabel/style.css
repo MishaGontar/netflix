@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.age-label-container {
+    @apply absolute hidden sm:flex flex-row w-[176px]  h-[50px] bg-[#FFFFFF7D] right-0 xl:top-[560px] 2xl:top-[750px] 2xl:h-[66px] items-center select-none
+}
+
+.age-label-red-block {
+    @apply bg-[#D40D1F] w-1/5 h-full
+}
+
+.age-label-text {
+    @apply text-[24px] leading-[32px] font-medium w-[82] h-[37] lg:ml-[16px] xl:ml-[26px]
+}

@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.stars-container {
+    @apply flex flex-row select-none
+    space-x-3 my-3
+    lg:space-x-[10px] lg:mb-[20px] lg:mt-[10px]
+    xl:space-x-[12px] xl:mt-[13px]
+    2xl:space-x-[14px] 2xl:mb-[30px] 2xl:mt-[18px]
+}

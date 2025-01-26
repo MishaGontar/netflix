@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+.header-container {
+    @apply flex justify-between mt-[15px] mr-4 sm:mr-8 2xl:mt-[38px]  select-none
+}
+
+.header-logo-container {
+    @apply flex flex-row items-center
+}
+
+.header-logo {
+    @apply w-[156px] h-[49px]
+}
+
+.select-logo {
+    @apply hidden
+    sm:block pl-[16px] pr-[26px] h-[28px]
+}
+
+.header-date {
+    @apply font-medium text-[#C8C8C8]
+    hidden
+    sm:block
+    md:text-[20px] md:leading-[24.8px]
+    xl:text-[24px] xl:leading-[28.8px]
+}
+
+.header-avatar-container {
+    @apply flex flex-row items-center space-x-[20px] sm:space-x-[45px]
+}
+
+.header-search {
+    @apply w-[30px] h-[30px]
+}
+
+.header-avatar {
+    @apply w-[50px] h-[50px] rounded-full
+}

@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.main-container {
+    @apply relative w-full h-screen;
+}
+
+.main-container-content {
+    @apply absolute top-0 text-white w-full
+}

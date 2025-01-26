@@ -1,0 +1,29 @@
+@import "@fontsource/inter";
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Kyiv Type Titling';
+    src: url('/src/assets/fonts/KyivTypeTitling.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    @apply m-0 overflow-x-hidden sm:overflow-y-hidden font-sans bg-black text-white;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.font-kyiv {
+    font-family: 'Kyiv Type Titling', sans-serif;
+}
+
+.text-gray {
+    @apply text-[#A7A6A6];
+}
+
+.content-margin {
+    @apply ml-[10px] md:ml-[20px] lg:ml-[50px] 2xl:ml-[86px]
+}
