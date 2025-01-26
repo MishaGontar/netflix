@@ -11,11 +11,11 @@ project includes smooth animations and interactive elements to enhance the user 
 
 ### Live Demo:
 
-[Visit the Live Website](#) (Add your deployed URL here)
+[Visit the Live Website](https://netflix-9xfu.onrender.com/)
 
 ### Video Walkthrough:
 
-[Watch the Video](#) (Add your video link here)
+[Watch the Video](https://www.youtube.com/watch?v=_R-CvMVFsqM)
 
 ---
 
